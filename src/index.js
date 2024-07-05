@@ -7,7 +7,7 @@ import App from './Intro'; //상대경로는 모두 src 집에서 찾아라
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  
-    <App />
+    <App bgcls="bg-dark fixed-top" textcls="text-white" />
 
 );
 
